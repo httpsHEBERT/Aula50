@@ -1,0 +1,40 @@
+h1{
+    color: rgb(16, 137, 106)
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(194, 224, 246), rgb(141, 231, 223));
+}
+
+.menuSuperior{
+    background-color: rgb(136, 232, 187);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.paginas{
+    background-color: rgb(101, 191, 149);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.corpo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
